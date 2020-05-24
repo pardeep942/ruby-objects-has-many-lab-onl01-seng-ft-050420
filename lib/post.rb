@@ -6,24 +6,14 @@ def initialize(title)
   end
 
 def postauthor_name
-  osts
-end
-def add_posts(posts)
-    @posts << posts
-    author.posts = self
-    @@posts_count += 1
+  def author_name
+    if author 
+      self.author.name 
+    else
+      nil
+    end
   end
 
-  def add_post_by_title(post_title)
-    post = post.new(post_title)
-    @posts << post
-    post.author = self
-    @@post_count += 1
-  end
-
-  def self.post_count
-    @@post_count
-  end
 
 end 
   
