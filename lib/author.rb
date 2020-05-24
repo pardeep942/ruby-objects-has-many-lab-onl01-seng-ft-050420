@@ -16,13 +16,13 @@ def add_posts(posts)
   end
 
   def add_post_by_title(post_title)
-    post = post.new(song_name)
-    @songs << song
-    song.artist = self
-    @@song_count += 1
+    post = post.new(post_title)
+    @posts << post
+    post.author = self
+    @@post_count += 1
   end
 
-  def self.song_count
+  def self.post_count
     @@song_count
   end
 
