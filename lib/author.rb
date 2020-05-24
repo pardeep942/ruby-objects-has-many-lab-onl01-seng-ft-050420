@@ -23,7 +23,7 @@ def add_posts(posts)
   end
 
   def self.post_count
-    @@song_count
+    @@post_count
   end
 
 end 
