@@ -5,8 +5,8 @@ def initialize(title)
     @title = title
   end
 
-def posts
-  @posts
+def postauthor_name
+  osts
 end
 def add_posts(posts)
     @posts << posts
