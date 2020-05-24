@@ -25,6 +25,5 @@ def add_posts(posts)
   def self.post_count
     @@post_count
   end
-
 end 
   
